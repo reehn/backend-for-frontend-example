@@ -1,0 +1,40 @@
+{
+    "type": "creditcard",
+    "companyId": "123",
+    "companyName": "Company Ab",
+    "status": "ACTIVE",
+    "credit": {
+        "creditLimit": 10000.00,
+        "availableCredit": 5400.00,
+        "spentCredit": 4600.00
+    },
+    "invoices": [
+        {
+            "id": "some-invoice-id-1",
+            "invoiceDate": "2023-10-01",
+            "dueDate": "2023-10-31",
+            "amount": 4000.00,
+            "balance": 4000.00
+        }
+    ],
+    "transactions": [
+        {
+            "invoiceId": "",
+            "transactionDate": "2023-10-10",
+            "spendingPlace": "En butik AB",
+            "amount": 600.00
+        },
+        {
+            "invoiceId": "some-invoice-id-1",
+            "transactionDate": "2023-09-10",
+            "spendingPlace": "Snabbköpet AB",
+            "amount": 2000.00
+        },
+        {
+            "invoiceId": "some-invoice-id-1",
+            "transactionDate": "2023-09-29",
+            "spendingPlace": "Smedjan AB",
+            "amount": 2000.00
+        }
+    ]
+}
